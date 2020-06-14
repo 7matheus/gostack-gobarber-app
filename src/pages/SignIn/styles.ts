@@ -4,6 +4,7 @@ export const Container = styeld.View`
   flex: 1;
   align-items: center;
   justify-content: center;
+  padding: 30px
 `;
 
 export const Title = styeld.Text`
