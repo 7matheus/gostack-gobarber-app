@@ -6,8 +6,14 @@ const Dashboard: React.FC = () => {
   const { signOut } = useAuth();
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Button title="Sair" onPress={signOut} />
+    <View
+      style={{
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <Button title="Sair" onPress={signOut} color="#F99000" />
     </View>
   );
 };
